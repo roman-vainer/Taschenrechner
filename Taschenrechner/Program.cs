@@ -21,7 +21,7 @@
 
             Console.Write("Operator: ");
             op = Console.ReadKey().KeyChar;
-            Console.WriteLine();
+            Console.WriteLine("Hallo from Dev");
 
             Console.WriteLine($"{z1} {op} {z2} = {Berechnung.rechnen(z1, z2, op)}");
         }
