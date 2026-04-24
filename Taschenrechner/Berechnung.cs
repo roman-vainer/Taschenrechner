@@ -12,7 +12,7 @@ namespace Taschenrechner {
                 '-' => Substraktion(z1, z2),
                 '*' => Multiplikation(z1, z2),
                 '/' => Division(z1, z2),
-                _ => throw new ArgumentOutOfRangeException(nameof(op), op, "Ugültiger OPerator")
+                _ => throw new ArgumentOutOfRangeException(nameof(op), op, "Ugültiger Operator")
             };
         } 
         private static double Addition(double z1, double z2) {
